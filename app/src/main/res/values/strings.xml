@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Latihan Kalkulator Sederhana</string>
+    <string name="kalkulator_sederhana">Kalkulator Sederhana</string>
+    <string name="masukkan_nilai">masukkan nilai</string>
+</resources>
