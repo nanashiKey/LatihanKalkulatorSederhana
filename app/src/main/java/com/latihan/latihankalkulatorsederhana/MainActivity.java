@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
             tv8, tv9, tvTambah, tvKali, tvKurang, tvSamadengan, tvBagi, tvC;
     AppCompatEditText etNilai;
     String nilaiAwal = "";
+    String nilaiKedua = "";
     int nilai1 = 0;
     int nilai2 = 0;
     String kode = "";
@@ -118,7 +119,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(nilaiAwal.equals("")){
-                    Toast.makeText(MainActivity.this, "silahkan masukkan angka awal terlebih dahulu", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,
+                            "silahkan masukkan angka awal terlebih dahulu", Toast.LENGTH_SHORT).show();
                 }else{
                     nilai1 = Integer.parseInt(nilaiAwal);
                     tvNilai1.setText(nilaiAwal);

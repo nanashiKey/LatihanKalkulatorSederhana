@@ -2,4 +2,11 @@
     <string name="app_name">Latihan Kalkulator Sederhana</string>
     <string name="kalkulator_sederhana">Kalkulator Sederhana</string>
     <string name="masukkan_nilai">masukkan nilai</string>
+    <string-array name="listbinatang">
+        <item>Anoa</item>
+        <item>Biawak</item>
+        <item>Cacing</item>
+        <item>Dinosaurus</item>
+        <item>Embe</item>
+    </string-array>
 </resources>
